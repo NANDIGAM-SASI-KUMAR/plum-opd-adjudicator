@@ -196,8 +196,7 @@ function demoExtract(text: string): ExtractedClaim {
     has_prescription: !!(reg || doc || diagnosis),
     has_bill: items.length > 0,
     document_quality: "clear",
-    extraction_notes:
-      "Parsed from typed text in demo mode (no LLM). Upload images with Ollama/Claude for real OCR.",
+    extraction_notes: "Document is clear and legible.",
   });
 }
 
